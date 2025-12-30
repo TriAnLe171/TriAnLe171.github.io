@@ -4,7 +4,6 @@ description: "© 2025 Tri An Le"
 theme: minima
 
 header_pages:
-  - research.md
   - publications.md
   - projects.md
   - cv.md
