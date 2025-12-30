@@ -6,7 +6,7 @@ permalink: /cv/
 
 ## Curriculum Vitae
 
-- **Download:** [Tri An Le — CV (PDF)](assets\2025_Tri_An_Le_CV_GS.pdf)
+- **Download:** [Tri An Le — CV (PDF)](/assets/2025_Tri_An_Le_CV_GS.pdf)
 
 ---
 
