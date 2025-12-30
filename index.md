@@ -8,9 +8,9 @@ permalink: /
 
 ## Hi, I’m Tri An.
 
-I’m an undergraduate researcher in **AI/NLP** focused on **multimodal + multilingual language understanding in real-world online settings** (social media, memes, noisy user text, code-switching).
+I’m a senior at Wabash College, double majoring in Computer Science and Mathematics. My research focuses on multimodal and multilingual NLP for real-world online communication, especially social media content such as memes, GIFs, and short-form video. I’m particularly interested in building culturally and community-aware methods that capture implicit image–text cues and code-switching, and in using these models to study how meaning, framing, and engagement shift across communities, including in high-stakes settings such as misinformation and mental health. If our interests match, feel free to drop me an email at: **triandole@gmail.com**.
 
-**Interests:** multimodal NLP, multilingual / code-switched NLP (esp. Vietnamese–English), social media language, retrieval & recommendation, dataset design.
+**Interests:** multimodal NLP, multilingual and code-switched NLP, social media language, information retrieval, misinformation, mental health.
 
 - Email: [triandole@gmail.com](mailto:triandole@gmail.com)
 - GitHub: [TriAnLe171](https://github.com/TriAnLe171)
@@ -24,9 +24,9 @@ I’m an undergraduate researcher in **AI/NLP** focused on **multimodal + multil
 ### MemeMatch — Dual-Context Multimodal Meme Dataset + Retrieval
 I’m building **MemeMatch**, a large-scale meme dataset and retrieval system that represents memes with **two complementary signals**:
 - **Local context:** user overlay text (OCR) + post title
-- **Global context:** underlying template semantics (caption after text-masking)
+- **Global context:** underlying template semantics
 
-On top of this representation, MemeMatch supports **intent-aware search** (e.g., “sarcastic memes about college”) and **image-based retrieval**.
+On top of this representation, MemeMatch supports **intent-aware search** (e.g., “sarcastic memes about college”) and **image-based retrieval** to study how meaning and intent shift across communities, contexts, and templates, and how these shifts relate to engagement.
 
 ➡️ See: **[Research](/research)** • **[Publications](/publications)** • **[Projects](/projects)**
 
@@ -41,4 +41,4 @@ On top of this representation, MemeMatch supports **intent-aware search** (e.g.,
 ---
 
 ## Open to
-PhD opportunities (Fall 2026), research collaborations in multimodal NLP.
+<span style="color:#d00;">PhD opportunities (Fall 2026), research collaborations in multimodal NLP.</span>
