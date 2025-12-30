@@ -1,10 +1,9 @@
 title: "Tri An Le"
-description: "Multimodal & multilingual NLP for social media. Memes, intent, emotion, retrieval."
+description: ""
 theme: minima
 
-author:
-  name: "Tri An Le"
-  email: "triandole@gmail.com"
+author: "Tri An Le"
+email: "triandole@gmail.com"
 
 header_pages:
   - research.md
