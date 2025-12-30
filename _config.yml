@@ -1,0 +1,21 @@
+title: "Tri An Le"
+description: "Multimodal & multilingual NLP for social media. Memes, intent, emotion, retrieval."
+theme: minima
+
+author:
+  name: "Tri An Le"
+  email: "triandole@gmail.com"
+
+header_pages:
+  - research.md
+  - publications.md
+  - projects.md
+  - cv.md
+
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/TriAnLe171" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/trianle" }
+
+# Optional (helps GitHub Pages build)
+markdown: kramdown
