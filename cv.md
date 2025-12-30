@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "CV"
-permalink: /cv/
+permalink: /assets/
 ---
 
 ## Curriculum Vitae
 
-- **Download:** [Tri An Le — CV (PDF)]({{ "/assets/2025_Tri_An_Le_CV_GS.pdf" | relative_url }})
+- **Download:** [Tri An Le — CV (PDF)](2025_Tri_An_Le_CV_GS.pdf)
 
 ---
 
