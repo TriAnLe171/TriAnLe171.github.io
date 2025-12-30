@@ -21,7 +21,7 @@ I’m a senior at Wabash College, double majoring in Computer Science and Mathem
 
 ## Research Highlight
 
-### MemeMatch — Dual-Context Multimodal Meme Dataset + Retrieval
+### MemeMatch: Dual-Context Multimodal Meme Dataset + Retrieval
 I’m building **MemeMatch**, a large-scale meme dataset and retrieval system that represents memes with **two complementary signals**:
 - **Local context:** user overlay text (OCR) + post title
 - **Global context:** underlying template semantics
