@@ -28,7 +28,7 @@ I’m building **MemeMatch**, a large-scale meme dataset and retrieval system th
 
 On top of this representation, MemeMatch supports **intent-aware search** (e.g., “sarcastic memes about college”) and **image-based retrieval** to study how meaning and intent shift across communities, contexts, and templates, and how these shifts relate to engagement.
 
-➡️ See: **[Publications](/publications)** • **[Projects](/projects)**
+➡️ See: **[Publications](/publications)** • **[Projects](/projects)** • **[CV](/CV)**
 
 ---
 
