@@ -35,8 +35,10 @@ On top of this representation, MemeMatch supports **intent-aware search** (e.g.,
 ## News
 - *2026:* Preparing MemeMatch for ICWSM submission.
 - *2025:* Research abroad at AIT Budapest + HSDSLab work on meme virality.
+- *2024:* Summer Undergraduate Math & Statistics Accelerator (SUMSA) at IMSI, The University of Chicago.
+- *2023:* Machine Learning Research Assistant at Department of Mathematics & Computer Science, Wabash College
 
 ---
 
 ## Open to
-PhD opportunities (Fall 2026), research collaborations, and dataset/retrieval projects in multimodal NLP.
+PhD opportunities (Fall 2026), research collaborations in multimodal NLP.
