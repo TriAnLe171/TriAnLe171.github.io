@@ -12,9 +12,9 @@ I’m an undergraduate researcher in **AI/NLP** focused on **multimodal + multil
 
 **Interests:** multimodal NLP, multilingual / code-switched NLP (esp. Vietnamese–English), social media language, retrieval & recommendation, dataset design.
 
-- Email: **triandole@gmail.com**
-- GitHub: **TriAnLe171**
-- LinkedIn: **/in/trianle**
+- Email: [triandole@gmail.com](mailto:triandole@gmail.com)
+- GitHub: [TriAnLe171](https://github.com/TriAnLe171)
+- LinkedIn: [/in/trianle](https://www.linkedin.com/in/trianle/)
 - CV: **[PDF](/assets/TriAnLe_CV.pdf)**
 
 ---
@@ -32,7 +32,7 @@ On top of this representation, MemeMatch supports **intent-aware search** (e.g.,
 
 ---
 
-## News (optional)
+## News
 - *2026:* Preparing MemeMatch for ICWSM submission.
 - *2025:* Research abroad at AIT Budapest + HSDSLab work on meme virality.
 
