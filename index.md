@@ -15,7 +15,7 @@ I’m an undergraduate researcher in **AI/NLP** focused on **multimodal + multil
 - Email: [triandole@gmail.com](mailto:triandole@gmail.com)
 - GitHub: [TriAnLe171](https://github.com/TriAnLe171)
 - LinkedIn: [/in/trianle](https://www.linkedin.com/in/trianle/)
-- CV: **[PDF](/assets/TriAnLe_CV.pdf)**
+- CV: **[PDF](/assets/2025_Tri_An_Le_CV_GS.pdf)**
 
 ---
 
