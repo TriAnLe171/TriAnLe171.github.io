@@ -34,6 +34,19 @@ permalink: /
   .muted{ color:var(--muted); }
   .divider{ height:1px; background:var(--border); margin: 1.5rem 0; }
 
+  /* Screen-reader only text */
+  .sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border:0;
+  }
+
   /* Top bar */
   .topbar{
     display:flex;
@@ -45,15 +58,44 @@ permalink: /
   .toggle{
     display:inline-flex;
     align-items:center;
+    justify-content:center;
     gap:.5rem;
     border:1px solid var(--border);
     background:var(--card);
     color:var(--text);
-    padding:.4rem .75rem;
+    padding:.42rem .62rem;   /* tighter for icon */
     border-radius:999px;
     cursor:pointer;
     box-shadow: var(--shadow);
-    font-size:.95rem;
+    font-size:1.05rem;
+    line-height:1;
+  }
+  .toggle .icon{
+    display:inline-block;
+    width:1.25rem;
+    text-align:center;
+  }
+
+  /* Make the site header/nav links readable in dark mode (common Jekyll themes) */
+  html[data-theme="dark"] .site-header,
+  html[data-theme="dark"] header,
+  html[data-theme="dark"] .site-nav{
+    background: var(--bg) !important;
+    border-color: var(--border) !important;
+  }
+
+  html[data-theme="dark"] .site-header a,
+  html[data-theme="dark"] .site-header a:visited,
+  html[data-theme="dark"] .site-nav a,
+  html[data-theme="dark"] .site-nav a:visited,
+  html[data-theme="dark"] a.page-link{
+    color: var(--text) !important;
+  }
+
+  html[data-theme="dark"] .site-header a:hover,
+  html[data-theme="dark"] .site-nav a:hover,
+  html[data-theme="dark"] a.page-link:hover{
+    color: var(--accent) !important;
   }
 
   /* Hero */
@@ -170,26 +212,36 @@ permalink: /
 
     document.documentElement.setAttribute("data-theme", initial);
 
-    function setLabel() {
+    function setIcon() {
       const t = document.documentElement.getAttribute("data-theme");
-      const el = document.getElementById("theme-label");
-      if (el) el.textContent = t === "dark" ? "Dark" : "Light";
+      const icon = document.getElementById("theme-icon");
+      const btn = document.getElementById("theme-toggle");
+      if (!icon || !btn) return;
+
+      // Show the target theme icon:
+      // light -> moon (switch to dark), dark -> sun (switch to light)
+      const nextIsDark = (t !== "dark");
+      icon.textContent = nextIsDark ? "🌙" : "☀️";
+      btn.setAttribute("aria-label", nextIsDark ? "Switch to dark mode" : "Switch to light mode");
     }
+
     window.__toggleTheme = function () {
       const cur = document.documentElement.getAttribute("data-theme");
       const next = (cur === "dark") ? "light" : "dark";
       document.documentElement.setAttribute("data-theme", next);
       localStorage.setItem(KEY, next);
-      setLabel();
+      setIcon();
     };
-    document.addEventListener("DOMContentLoaded", setLabel);
+
+    document.addEventListener("DOMContentLoaded", setIcon);
   })();
 </script>
 
 <div class="topbar">
   <div class="muted">Multimodal and multilingual NLP for social media</div>
-  <button class="toggle" type="button" onclick="__toggleTheme()" aria-label="Toggle theme">
-    Theme: <span id="theme-label">Light</span>
+  <button id="theme-toggle" class="toggle" type="button" onclick="__toggleTheme()" aria-label="Toggle theme">
+    <span id="theme-icon" class="icon" aria-hidden="true">🌙</span>
+    <span class="sr-only">Toggle theme</span>
   </button>
 </div>
 
