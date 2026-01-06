@@ -33,10 +33,51 @@ On top of this representation, MemeMatch enables **intent-aware search** (e.g., 
 ---
 
 ## News
-- *2026:* MemeMatch is under review at ICWSM 2026.
-- *2025:* Research abroad at AIT Budapest + HSDSLab (Jan 2025 - May 2025); Internships at CityWide Classroon and Re-Volt Innovations (May 2025 - Aug 2025)
-- *2024:* Summer Undergraduate Math & Statistics Accelerator (SUMSA) at IMSI, The University of Chicago.
-- *2023:* Machine Learning Research Assistant at Department of Mathematics & Computer Science, Wabash College
+
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-year">2026</div>
+    <div class="timeline-content">MemeMatch is under review at ICWSM 2026.</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-year">2025</div>
+    <div class="timeline-content">Research abroad at AIT Budapest + HSDSLab (Jan–May 2025); Internships at CityWide Classroom and Re-Volt Innovations (May–Aug 2025).</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-year">2024</div>
+    <div class="timeline-content">Summer Undergraduate Math & Statistics Accelerator (SUMSA) at IMSI, The University of Chicago.</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-year">2023</div>
+    <div class="timeline-content">Machine Learning Research Assistant at Department of Mathematics & Computer Science, Wabash College.</div>
+  </div>
+</div>
+
+<style>
+.timeline {
+  border-left: 2px solid #ccc;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.timeline-year {
+  font-weight: bold;
+  color: #d00;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #d00;
+  border-radius: 50%;
+}
+</style>
 
 ---
 
