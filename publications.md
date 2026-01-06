@@ -142,7 +142,7 @@ permalink: /publications/
   <div class="card">
     <div class="sectionhead">
       <h3 class="title" style="margin-bottom:.2rem;">Preprints / Under Review</h3>
-      <span class="pill status">ICWSM 2026 submission (in preparation)</span>
+      <span class="pill status">ICWSM 2026 submission (under review)</span>
     </div>
     <div class="divider"></div>
 
@@ -156,7 +156,7 @@ permalink: /publications/
       </p>
 
       <p class="venue">
-        ICWSM 2026 submission (in preparation)
+        ICWSM 2026 submission (under review)
       </p>
 
       <div class="btnrow">

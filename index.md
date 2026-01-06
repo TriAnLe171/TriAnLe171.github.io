@@ -150,6 +150,40 @@ permalink: /
   }
   .card h3{ margin-top:.1rem; }
 
+  /* Research highlight: image + text layout */
+  .research-grid{
+    display:grid;
+    grid-template-columns: 320px 1fr;
+    gap:1.1rem;
+    align-items:start;
+    margin-top:.8rem;
+  }
+  @media (max-width: 860px){
+    .research-grid{ grid-template-columns: 1fr; }
+  }
+
+  .figure{
+    background: var(--bg);
+    border:1px solid var(--border);
+    border-radius:16px;
+    box-shadow: var(--shadow);
+    padding:.65rem;
+  }
+  .figure img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:12px;
+    border:1px solid var(--border);
+    background: var(--card);
+  }
+  .figcap{
+    margin-top:.55rem;
+    color: var(--muted);
+    font-size:.92rem;
+    line-height:1.4;
+  }
+
   /* Timeline */
   .timeline{
     list-style:none;
@@ -283,26 +317,45 @@ permalink: /
   <h2 style="margin-top:.2rem;">Research Highlight</h2>
 
   <h3>MemeMatch, Dual-Context Multimodal Meme Dataset and Retrieval</h3>
-  <p class="muted">
-    MemeMatch is a large-scale multimodal meme dataset and retrieval system for studying how meaning, intent,
-    and emotion connect to online engagement and virality. It includes rich annotations such as emotion vectors,
-    topics, and usage-intent labels, built through a dual-context pipeline:
-  </p>
 
-  <ul class="muted">
-    <li><b>Local context:</b> OCR overlay text plus post title</li>
-    <li><b>Global context:</b> template semantics and visual meaning</li>
-  </ul>
+  <div class="research-grid">
+    <!-- Left: image placeholder -->
+    <div class="figure">
+      <!-- Replace the src once you add your image file -->
+      <img
+        src="/assets/img/dual_context_pipeline_placeholder.png"
+        alt="Dual-context pipeline diagram (local and global context)"
+        loading="lazy"
+      >
+      <div class="figcap">
+        Dual-context pipeline: local context (OCR overlay text + title) and global context (template semantics).
+      </div>
+    </div>
 
-  <p class="muted">
-    On top of this representation, MemeMatch supports intent-aware search (for example, “sarcastic memes about college”)
-    and image-based retrieval, enabling analyses of how memes are reframed across communities and templates, and how those
-    shifts relate to engagement.
-  </p>
+    <!-- Right: text -->
+    <div>
+      <p class="muted">
+        MemeMatch is a large-scale multimodal meme dataset and retrieval system for studying how meaning, intent,
+        and emotion connect to online engagement and virality. It includes rich annotations such as emotion vectors,
+        topics, and usage-intent labels, built through a dual-context pipeline:
+      </p>
 
-  <p style="margin-bottom:.2rem;">
-    ➡️ See: <a href="/publications">Publications</a> · <a href="/assets">CV</a>
-  </p>
+      <ul class="muted">
+        <li><b>Local context:</b> OCR overlay text plus post title</li>
+        <li><b>Global context:</b> template semantics and visual meaning</li>
+      </ul>
+
+      <p class="muted">
+        On top of this representation, MemeMatch supports intent-aware search (for example, “sarcastic memes about college”)
+        and image-based retrieval, enabling analyses of how memes are reframed across communities and templates, and how those
+        shifts relate to engagement.
+      </p>
+
+      <p style="margin-bottom:.2rem;">
+        ➡️ See: <a href="/publications">Publications</a> · <a href="/assets">CV</a>
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="divider"></div>
