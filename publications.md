@@ -128,7 +128,7 @@ permalink: /publications/
       <div>
         <h2 class="title">Publications</h2>
         <div class="muted">
-          Selected papers and manuscripts. Links point to PDFs or project pages when available.
+          Selected papers and manuscripts.
         </div>
       </div>
       <div class="pillrow">
