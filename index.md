@@ -323,7 +323,7 @@ permalink: /
     <div class="figure">
       <!-- Replace the src once you add your image file -->
       <img
-        src="/assets/img/dual_context_pipeline_placeholder.png"
+        src="/assets/img/dual_context_framework.png"
         alt="Dual-context pipeline diagram (local and global context)"
         loading="lazy"
       >
