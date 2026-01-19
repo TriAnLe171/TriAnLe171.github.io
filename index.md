@@ -388,9 +388,9 @@ permalink: /
 
 <div class="divider"></div>
 
-<div class="callout">
+<!-- <div class="callout">
   <h2 style="margin:.1rem 0 .35rem 0;">Open to</h2>
   <div class="muted">
     PhD opportunities (Fall 2026), research collaborations in multimodal NLP, social media analysis.
   </div>
-</div>
+</div> -->
