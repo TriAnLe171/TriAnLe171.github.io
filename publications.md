@@ -152,7 +152,7 @@ permalink: /publications/
       </p>
 
       <p class="authors">
-        <b>Do Tri An Le</b>, Donát Ákos Köller, Roland Molontay
+        <b>Do Tri An Le</b>, Donát Ákos Köller, Qixin Deng, Roland Molontay
       </p>
 
       <p class="venue">

@@ -318,19 +318,18 @@ permalink: /
 
   <h3>MemeMatch, Dual-Context Multimodal Meme Dataset and Retrieval</h3>
 
-  <div class="research-grid">
-    <!-- Left: image placeholder -->
-    <div class="figure">
-      <!-- Replace the src once you add your image file -->
+  <div class="figure">
+    <a href="assets/img/MEMEMATCH_best_for_printing.pdf" target="_blank" rel="noopener">
       <img
-        src="/assets/img/dual_context_framework.png"
-        alt="Dual-context pipeline diagram (local and global context)"
+        src="assets/img/2026_Celebration_Poster_Template_42x48_inches.jpg"
+        alt="MemeMatch poster"
         loading="lazy"
       >
-      <div class="figcap">
-        Dual-context pipeline: local context (OCR overlay text + title) and global context (template semantics).
-      </div>
+    </a>
+    <div class="figcap">
+      Dual-context pipeline: local context (OCR overlay text + title) and global context (template semantics).
     </div>
+  </div>
 
     <!-- Right: text -->
     <div>
