@@ -323,7 +323,7 @@ permalink: /
     <div class="figure">
       <a href="/assets/img/MEMEMATCH_best_for_printing.pdf" target="_blank" rel="noopener">
         <img
-          src="/assets/img/2026_Celebration_Poster_Template_42x48_inches.jpg"
+          src="/assets/img/2026_Celebration_Poster_Template_42x48_inches.png"
           alt="MemeMatch poster"
           loading="lazy"
         >
