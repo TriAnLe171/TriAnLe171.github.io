@@ -141,8 +141,8 @@ permalink: /publications/
 
   <div class="card">
     <div class="sectionhead">
-      <h3 class="title" style="margin-bottom:.2rem;">Preprints / Under Review</h3>
-      <span class="pill status">ICWSM 2026 submission (under review)</span>
+      <h3 class="title" style="margin-bottom:.2rem;">Conference Publications</h3>
+      <span class="pill status">Accepted at ICWSM 2026</span>
     </div>
     <div class="divider"></div>
 
@@ -156,7 +156,7 @@ permalink: /publications/
       </p>
 
       <p class="venue">
-        ICWSM 2026 submission (under review)
+        Accepted to the International AAAI Conference on Web and Social Media (ICWSM 2026)
       </p>
 
       <div class="btnrow">
