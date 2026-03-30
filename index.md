@@ -367,7 +367,7 @@ permalink: /
   <ul class="timeline">
     <li>
       <time>2026</time>
-      <div class="event">Mar 2026 MemeMatch got accepted at ICWSM 2026!</div>
+      <div class="event">Mar 2026: MemeMatch got accepted at ICWSM 2026!</div>
     </li>
     <li>
       <time>2025</time>
