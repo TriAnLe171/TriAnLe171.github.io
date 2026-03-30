@@ -41,28 +41,24 @@ permalink: /publications/
   }
 
   .pub-header{
-    margin-bottom:2rem;
+    margin-bottom:1.5rem;
   }
 
-  .pub-header h1,
-  .pub-header h2{
-    margin:0 0 .35rem 0;
-  }
-
-  .pub-header p{
+  .pub-header h1{
     margin:0;
-    color:var(--muted);
   }
 
   .pub-section{
-    margin-top:2rem;
+    margin-top:1.75rem;
   }
 
-  .pub-section h2{
-    font-size:1.15rem;
-    margin:0 0 1rem 0;
-    padding-bottom:.55rem;
-    border-bottom:1px solid var(--line);
+  .section-label{
+    margin:0 0 .85rem 0;
+    font-size:.95rem;
+    font-weight:600;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:.04em;
   }
 
   .pub-item{
@@ -98,11 +94,10 @@ permalink: /publications/
 <div class="pub-page">
   <div class="pub-header">
     <h1>Publications</h1>
-    <p>Selected publications and manuscripts.</p>
   </div>
 
   <section class="pub-section">
-    <h2>Conference Publications</h2>
+    <p class="section-label">Conference Publications</p>
 
     <article class="pub-item">
       <p class="paper-title">
@@ -119,6 +114,18 @@ permalink: /publications/
 
       <p class="links">
         <a href="https://github.com/TriAnLe171/Meme_Recommendation_Project/blob/main/TriAn_MemeMatch_TechReport.pdf" target="_blank" rel="noopener">Paper</a>
+      </p>
+    </article>
+  </section>
+
+  <section class="pub-section">
+    <p class="section-label">Manuscripts Under Review</p>
+
+    <article class="pub-item">
+      <p class="paper-title">Coming soon</p>
+
+      <p class="venue">
+        Additional manuscripts under review will be listed here.
       </p>
     </article>
   </section>
