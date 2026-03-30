@@ -2,6 +2,12 @@
 layout: page
 permalink: /assets/
 ---
+<style>
+  .post-title,
+  .page-heading {
+    display: none;
+  }
+</style>
 
 <!-- ===== CV Page Styles (matches Home theme + dark mode) ===== -->
 <style>

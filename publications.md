@@ -1,6 +1,15 @@
 ---
 layout: page
+title: "Publications"
 permalink: /publications/
+---
+
+<style>
+  .post-title,
+  .page-heading {
+    display: none;
+  }
+</style>
 ---
 
 <style>
