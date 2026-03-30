@@ -4,167 +4,122 @@ title: "Publications"
 permalink: /publications/
 ---
 
-<!-- ===== Publications Page Styles (matches Home/CV theme + dark mode) ===== -->
 <style>
   :root{
     --bg:#ffffff;
     --text:#111827;
-    --muted:#4b5563;
-    --card:#f8fafc;
-    --border:#e5e7eb;
+    --muted:#6b7280;
+    --line:#e5e7eb;
     --accent:#2563eb;
-    --shadow: 0 8px 30px rgba(0,0,0,.06);
   }
+
   html[data-theme="dark"]{
     --bg:#0b1220;
     --text:#e5e7eb;
     --muted:#94a3b8;
-    --card:#0f172a;
-    --border:#1f2937;
+    --line:#1f2937;
     --accent:#60a5fa;
-    --shadow: 0 10px 35px rgba(0,0,0,.35);
   }
 
-  body{ background:var(--bg); color:var(--text); }
-  a{ color:var(--accent); text-decoration:none; }
-  a:hover{ text-decoration:underline; }
-
-  .wrap{ display:flex; flex-direction:column; gap:1rem; }
-  .card{
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:16px;
-    padding:1rem 1.1rem;
-    box-shadow: var(--shadow);
-  }
-  .title{ margin:.1rem 0 .35rem 0; }
-  .muted{ color:var(--muted); }
-
-  .sectionhead{
-    display:flex;
-    align-items:baseline;
-    justify-content:space-between;
-    gap:1rem;
-    flex-wrap:wrap;
-  }
-  .pillrow{ display:flex; gap:.45rem; flex-wrap:wrap; }
-  .pill{
-    display:inline-flex;
-    align-items:center;
-    gap:.35rem;
-    padding:.18rem .55rem;
-    border-radius:999px;
-    border:1px solid var(--border);
-    background:var(--bg);
-    color:var(--muted);
-    font-size:.88rem;
-    line-height:1.4;
-  }
-  .pill.status{
-    border-color: rgba(37,99,235,.35);
-    background: rgba(37,99,235,.08);
-    color: var(--text);
-  }
-  html[data-theme="dark"] .pill.status{
-    border-color: rgba(96,165,250,.35);
-    background: rgba(96,165,250,.12);
-  }
-
-  .pub{
-    display:flex;
-    flex-direction:column;
-    gap:.35rem;
-  }
-  .pub .paper-title{
-    font-weight:800;
-    font-size:1.05rem;
-    margin:0;
-  }
-  .pub .authors{
-    margin:0;
-    color:var(--muted);
-  }
-  .pub .venue{
-    margin:0;
-    color:var(--muted);
-  }
-
-  .btnrow{
-    display:flex;
-    flex-wrap:wrap;
-    gap:.6rem;
-    margin-top:.55rem;
-  }
-  .btn{
-    display:inline-flex;
-    align-items:center;
-    gap:.5rem;
-    padding:.5rem .85rem;
-    border-radius:999px;
-    border:1px solid var(--border);
+  body{
     background:var(--bg);
     color:var(--text);
-    box-shadow: var(--shadow);
-    font-weight:650;
-  }
-  .btn:hover{ text-decoration:none; }
-  .btn.primary{
-    background: var(--accent);
-    border-color: var(--accent);
-    color:#ffffff;
   }
 
-  .divider{
-    height:1px;
-    background:var(--border);
-    margin:.2rem 0 0 0;
+  a{
+    color:var(--accent);
+    text-decoration:none;
+  }
+
+  a:hover{
+    text-decoration:underline;
+  }
+
+  .pub-page{
+    max-width:780px;
+    margin:0 auto;
+  }
+
+  .pub-header{
+    margin-bottom:2rem;
+  }
+
+  .pub-header h1,
+  .pub-header h2{
+    margin:0 0 .35rem 0;
+  }
+
+  .pub-header p{
+    margin:0;
+    color:var(--muted);
+  }
+
+  .pub-section{
+    margin-top:2rem;
+  }
+
+  .pub-section h2{
+    font-size:1.15rem;
+    margin:0 0 1rem 0;
+    padding-bottom:.55rem;
+    border-bottom:1px solid var(--line);
+  }
+
+  .pub-item{
+    padding:0 0 1.25rem 0;
+    margin-bottom:1.25rem;
+    border-bottom:1px solid var(--line);
+  }
+
+  .pub-item:last-child{
+    margin-bottom:0;
+  }
+
+  .paper-title{
+    margin:0 0 .4rem 0;
+    font-size:1.05rem;
+    font-weight:700;
+    line-height:1.45;
+  }
+
+  .authors,
+  .venue,
+  .links{
+    margin:0;
+    color:var(--muted);
+    line-height:1.6;
+  }
+
+  .links{
+    margin-top:.4rem;
   }
 </style>
 
-<div class="wrap">
-
-  <div class="card">
-    <div class="sectionhead">
-      <div>
-        <h2 class="title">Publications</h2>
-        <div class="muted">
-          Selected papers and manuscripts.
-        </div>
-      </div>
-      <div class="pillrow">
-        <span class="pill">📌 Multimodal NLP</span>
-        <span class="pill">🔎 Retrieval</span>
-        <span class="pill">🧠 Social media</span>
-      </div>
-    </div>
+<div class="pub-page">
+  <div class="pub-header">
+    <h1>Publications</h1>
+    <p>Selected publications and manuscripts.</p>
   </div>
 
-  <div class="card">
-    <div class="sectionhead">
-      <h3 class="title" style="margin-bottom:.2rem;">Conference Publications</h3>
-      <span class="pill status">Accepted at ICWSM 2026</span>
-    </div>
-    <div class="divider"></div>
+  <section class="pub-section">
+    <h2>Conference Publications</h2>
 
-    <div class="pub" style="margin-top:.9rem;">
+    <article class="pub-item">
       <p class="paper-title">
         MemeMatch: A Large-Scale Dual-Context Multimodal Dataset and Retrieval System for Internet Memes
       </p>
 
       <p class="authors">
-        <b>Do Tri An Le</b>, Donát Ákos Köller, Qixin Deng, Roland Molontay
+        <strong>Do Tri An Le</strong>, Donát Ákos Köller, Qixin Deng, Roland Molontay
       </p>
 
       <p class="venue">
-        Accepted to the International AAAI Conference on Web and Social Media (ICWSM 2026)
+        International AAAI Conference on Web and Social Media (ICWSM 2026), accepted
       </p>
 
-      <div class="btnrow">
-        <a class="btn primary" href="https://github.com/TriAnLe171/Meme_Recommendation_Project/blob/main/TriAn_MemeMatch_TechReport.pdf" target="_blank" rel="noopener">
-          📄 Paper (PDF)
-        </a>
-      </div>
-    </div>
-  </div>
-
+      <p class="links">
+        <a href="https://github.com/TriAnLe171/Meme_Recommendation_Project/blob/main/TriAn_MemeMatch_TechReport.pdf" target="_blank" rel="noopener">Paper</a>
+      </p>
+    </article>
+  </section>
 </div>
