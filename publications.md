@@ -117,7 +117,7 @@ permalink: /publications/
       </p>
 
       <p class="venue">
-        International AAAI Conference on Web and Social Media (ICWSM 2026), accepted
+        International AAAI Conference on Web and Social Media (<strong>ICWSM 2026</strong>)
       </p>
 
       <p class="links">
