@@ -367,22 +367,20 @@ permalink: /
   <ul class="timeline">
     <li>
       <time>2026</time>
-      <div class="event">MemeMatch got accepted at ICWSM 2026!</div>
+      <div class="event">Mar 2026 MemeMatch got accepted at ICWSM 2026!</div>
     </li>
     <li>
       <time>2025</time>
-      <div class="event">
-        Research abroad at AIT Budapest and HSDSLab (Jan 2025 to May 2025),
-        internships at Citywide Classroom and Re-Volt Innovations (May 2025 to Aug 2025).
-      </div>
+      <div class="event">May 2025 - Aug 2025: Internships at Citywide Classroom and Re-Volt Innovations</div>
+      <div class="event">Jan 2025 - May 2025: Research abroad at AIT Budapest and HSDSLab</div>
     </li>
     <li>
       <time>2024</time>
-      <div class="event">Summer Undergraduate Math and Statistics Accelerator (SUMSA), IMSI, The University of Chicago.</div>
+      <div class="event"> Jun 2024 - Aug 2024: Summer Undergraduate Math and Statistics Accelerator (SUMSA), IMSI, The University of Chicago.</div>
     </li>
     <li>
       <time>2023</time>
-      <div class="event">Machine Learning Research Assistant, Department of Mathematics and Computer Science, Wabash College.</div>
+      <div class="event">May 2023 - Aug 2023: Machine Learning Research Assistant, Department of Mathematics and Computer Science, Wabash College.</div>
     </li>
   </ul>
 </div>
