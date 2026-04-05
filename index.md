@@ -284,12 +284,7 @@ permalink: /
   <div class="meta">
     <h2>Hi, I’m Tri An.</h2>
     <p class="muted" style="margin:.25rem 0 0 0;">
-      I’m a senior at Wabash College, double majoring in Computer Science and Mathematics.
-      My research focuses on multimodal and multilingual NLP for real-world online communication,
-      especially social media content such as memes, GIFs, and short-form video.
-      I’m interested in community-aware methods that capture implicit image-text cues and code-switching,
-      and in using these models to study how meaning, framing, and engagement shift across communities,
-      including in high-stakes settings like misinformation, online harms, and mental health.
+      I’m an incoming CS Ph.D. student in the CGIM Lab at the University of Houston, where I will work with Dr. Zhigang Deng. My research focuses on multimodal and multilingual NLP for real-world online communication, especially social media content such as memes, GIFs, and short-form videos. I’m particularly interested in community-aware methods that capture implicit image-text cues and code-switching, and in using these models to study how meaning, framing, and engagement shift across communities in high-stakes settings such as misinformation, online harms, and mental health. I recently graduated Summa Cum Laude from Wabash College with a double major in Computer Science and Mathematics.
     </p>
 
     <div class="links">
@@ -368,6 +363,8 @@ permalink: /
     <li>
       <time>2026</time>
       <div class="event">Mar 2026: MemeMatch got accepted at ICWSM 2026!</div>
+      <div class="event">Mar 2026: Awarded the Phi Beta Kappa Prize</div>
+      <div class="event">Jan 2026: Received the Robert Wedgeworth '59 Library Research, Scholarship, and Creativity Award</div>
     </li>
     <li>
       <time>2025</time>
@@ -380,6 +377,7 @@ permalink: /
     </li>
     <li>
       <time>2023</time>
+      <div class="event">Nov 2023: First Runner-up Michigan Autumn Take-home (MATH) Challenge.</div>
       <div class="event">May 2023 - Aug 2023: Machine Learning Research Assistant, Department of Mathematics and Computer Science, Wabash College.</div>
     </li>
   </ul>
