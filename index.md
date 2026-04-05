@@ -284,7 +284,7 @@ permalink: /
   <div class="meta">
     <h2>Hi, I’m Tri An.</h2>
     <p class="muted" style="margin:.25rem 0 0 0;">
-      I’m an incoming CS Ph.D. student in the CGIM Lab at the University of Houston, where I will work with Dr. Zhigang Deng. My research focuses on multimodal and multilingual NLP for real-world online communication, especially social media content such as memes, GIFs, and short-form videos. I’m particularly interested in community-aware methods that capture implicit image-text cues and code-switching, and in using these models to study how meaning, framing, and engagement shift across communities in high-stakes settings such as misinformation, online harms, and mental health. I recently graduated Summa Cum Laude from Wabash College with a double major in Computer Science and Mathematics.
+        I'm an incoming CS Ph.D. student in the <a href="https://graphics.cs.uh.edu/">CGIM Lab</a> at the University of Houston, where I will work with <a href="https://graphics.cs.uh.edu/zdeng/">Dr. Zhigang Deng</a>. My research focuses on multimodal and multilingual NLP for real-world online communication, especially social media content such as memes, GIFs, and short-form videos. I'm particularly interested in community-aware methods that capture implicit image-text cues and code-switching, and in using these models to study how meaning, framing, and engagement shift across communities in high-stakes settings such as misinformation, online harms, and mental health. I recently graduated <i>summa cum laude</i> from Wabash College with a double major in Computer Science and Mathematics.
     </p>
 
     <div class="links">
