@@ -237,12 +237,10 @@ permalink: /
   (function () {
     const KEY = "theme";
     const saved = localStorage.getItem(KEY);
-    const prefersDark = window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
 
     const initial = (saved === "dark" || saved === "light")
       ? saved
-      : (prefersDark ? "dark" : "light");
+      : "light";
 
     document.documentElement.setAttribute("data-theme", initial);
 
