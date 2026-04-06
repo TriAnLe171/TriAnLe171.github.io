@@ -131,10 +131,10 @@ permalink: /assets/
     </div>
 
     <div class="btnrow">
-      <a class="btn primary" href="/assets/2025_Tri_An_Le_CV_GS.pdf" target="_blank" rel="noopener">
+      <a class="btn primary" href="/assets/2026_Tri_An_Le_CV_GS.pdf" target="_blank" rel="noopener">
         ⬇️ Download PDF
       </a>
-      <a class="btn" href="/assets/2025_Tri_An_Le_CV_GS.pdf" target="_blank" rel="noopener">
+      <a class="btn" href="/assets/2026_Tri_An_Le_CV_GS.pdf" target="_blank" rel="noopener">
         👀 View in browser
       </a>
     </div>

@@ -289,7 +289,7 @@ permalink: /
       <a href="mailto:triandole@gmail.com">Email</a>
       <a href="https://github.com/TriAnLe171">GitHub</a>
       <a href="https://www.linkedin.com/in/trianle/">LinkedIn</a>
-      <a href="/assets/2025_Tri_An_Le_CV_GS.pdf">CV (PDF)</a>
+      <a href="/assets/2026_Tri_An_Le_CV_GS.pdf">CV (PDF)</a>
     </div>
 
     <div class="chips" aria-label="Interests">
