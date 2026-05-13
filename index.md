@@ -360,6 +360,7 @@ permalink: /
   <ul class="timeline">
     <li>
       <time>2026</time>
+      <div class="event">May 2026: Awarded the J. Crawford Polley Prize in Mathematics and Computer Science and George Lewes Mackintosh Memorial Fund!</div>
       <div class="event">Mar 2026: MemeMatch got accepted at ICWSM 2026!</div>
       <div class="event">Mar 2026: Awarded the Phi Beta Kappa Prize</div>
       <div class="event">Jan 2026: Received the Robert Wedgeworth '59 Library Research, Scholarship, and Creativity Award</div>
