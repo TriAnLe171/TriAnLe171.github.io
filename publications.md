@@ -121,7 +121,7 @@ permalink: /publications/
       </p>
 
       <p class="links">
-        <a href="https://github.com/TriAnLe171/Meme_Recommendation_Project/blob/main/TriAn_MemeMatch_TechReport.pdf" target="_blank" rel="noopener">Paper</a>
+        <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/42785" target="_blank" rel="noopener">Paper</a>
       </p>
     </article>
   </section>

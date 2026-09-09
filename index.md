@@ -314,9 +314,9 @@ permalink: /
   <div class="research-grid">
     <!-- Left: poster preview -->
     <div class="figure">
-      <a href="/assets/img/MEMEMATCH_best_for_printing.pdf" target="_blank" rel="noopener">
+      <a href="/assets/img/ICWSM 2026_poster.pdf" target="_blank" rel="noopener">
         <img
-          src="/assets/img/2026_Celebration_Poster_Template_42x48_inches.png"
+          src="assets/img/ICWSM 2026_poster.png"
           alt="MemeMatch poster"
           loading="lazy"
         >
