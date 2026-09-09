@@ -121,7 +121,7 @@ permalink: /publications/
       </p>
 
       <p class="links">
-        <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/42785" target="_blank" rel="noopener">Paper</a>
+        <a href="https://doi.org/10.1609/icwsm.v20i1.42785" target="_blank" rel="noopener">Paper</a>
       </p>
     </article>
   </section>

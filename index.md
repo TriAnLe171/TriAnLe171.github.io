@@ -309,7 +309,7 @@ permalink: /
 <div class="card" markdown="1">
   <h2 style="margin-top:.2rem;">Research Highlight</h2>
 
-  <h3>MemeMatch, Dual-Context Multimodal Meme Dataset and Retrieval</h3>
+  <h3><a href="https://doi.org/10.1609/icwsm.v20i1.42785">MemeMatch: A Large-Scale Dual-Context Multimodal Dataset and Retrieval System for Internet Memes -- ICWSM 2026</a></h3>
 
   <div class="research-grid">
     <!-- Left: poster preview -->
