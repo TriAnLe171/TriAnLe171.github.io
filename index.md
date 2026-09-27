@@ -270,7 +270,7 @@ permalink: /
 </script>
 
 <div class="topbar">
-  <div class="muted">Multimodal and multilingual NLP for social media</div>
+  <div class="muted"></div>
   <button id="theme-toggle" class="toggle" type="button" onclick="__toggleTheme()" aria-label="Toggle theme">
     <span id="theme-icon" class="icon" aria-hidden="true">🌙</span>
     <span class="sr-only">Toggle theme</span>
@@ -278,11 +278,15 @@ permalink: /
 </div>
 
 <div class="hero">
-  <img src="/assets/img/profile.png" alt="Tri An Le">
+  <img src="/assets/img/profile.jpg" alt="Tri An Le">
   <div class="meta">
     <h2>Hi, I’m Tri An.</h2>
     <p class="muted" style="margin:.25rem 0 0 0;">
-        I'm an incoming CS Ph.D. student in the <a href="https://graphics.cs.uh.edu/">CGIM Lab</a> at the University of Houston, where I will work with <a href="https://graphics.cs.uh.edu/zdeng/">Dr. Zhigang Deng</a>. My research focuses on multimodal and multilingual NLP for real-world online communication, especially social media content such as memes, GIFs, and short-form videos. I'm particularly interested in community-aware methods that capture implicit image-text cues and code-switching, and in using these models to study how meaning, framing, and engagement shift across communities in high-stakes settings such as misinformation, online harms, and mental health. I recently graduated <i>summa cum laude</i> from Wabash College with a double major in Computer Science and Mathematics.
+        I'm a Computer Science Ph.D. student in the <a href="https://graphics.cs.uh.edu/">CGIM Lab</a> at the University of Houston, advised by <a href="https://graphics.cs.uh.edu/zdeng/">Dr. Zhigang Deng</a>. My current research focuses on AI assistants in education and how they can support effective learning. Previously, I worked on multimodal and multilingual NLP for online communication, including social media and memes.
+        
+        I graduated <i>summa cum laude</i> from Wabash College with a double major in Computer Science and Mathematics.
+        
+        During work hours, if I'm not in class, you can usually find me in my office at PGH 235 (CGIM Lab). Outside of work, I'm probably at the gym—or if you're missing a player for soccer or basketball, I'm always happy to join!
     </p>
 
     <div class="links">
