@@ -364,6 +364,7 @@ permalink: /
   <ul class="timeline">
     <li>
       <time>2026</time>
+      <div class="event">Aug 2026: Awarded the The Presidential Fellowship for incoming UH PhD student and the NSM Alumni Association Scholarship</div>
       <div class="event">May 2026: Awarded the J. Crawford Polley Prize in Mathematics and Computer Science and George Lewes Mackintosh Memorial Fund!</div>
       <div class="event">Mar 2026: MemeMatch got accepted at ICWSM 2026!</div>
       <div class="event">Mar 2026: Awarded the Phi Beta Kappa Prize</div>
@@ -391,6 +392,6 @@ permalink: /
 <!-- <div class="callout">
   <h2 style="margin:.1rem 0 .35rem 0;">Open to</h2>
   <div class="muted">
-    PhD opportunities (Fall 2026), research collaborations in multimodal NLP, social media analysis.
+    Research collaborations in AIed!
   </div>
 </div> -->
